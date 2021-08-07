@@ -1,6 +1,7 @@
 package Tests;
 
 import General.Constans;
+import General.Methods;
 import Pages.Contact_us;
 import Pages.Index;
 import TestEnvironment.TestEnvironment;
@@ -14,10 +15,11 @@ public class TestContact_us extends TestEnvironment {
     @Test
     public void Test_Contact_us() {
         index = new Index(driver);
+        Methods.TakeScreenshot(driver);
         index.contactUrlClick();
 
         contact_us = new Contact_us(driver);
-
+        Methods.TakeScreenshot(driver);
         contact_us.fillContactForm(
                 Constans.CONTACT_US_FULLNAME_CONTENT,
                 driver.findElement(Constans.CONTACT_US_COPIED_CONTENT_TO_TEXTAREA).getText());
@@ -34,11 +36,5 @@ public class TestContact_us extends TestEnvironment {
         */
 
         Assertions.assertTrue(driver.getPageSource().contains("contact form below"));
-
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 }

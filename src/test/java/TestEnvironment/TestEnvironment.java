@@ -23,9 +23,9 @@ public class TestEnvironment {
         ChromeOptions options = new ChromeOptions();
 
         //options.addArguments("--incognito");
+        options.addArguments("--headless"); // github action-nál át kell állítanom
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
-        options.addArguments("--headless"); // github action-nál át kell állítanom
 
         driver = new ChromeDriver(options);
 
