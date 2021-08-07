@@ -1,0 +1,197 @@
+{
+  "uid" : "126503a98a5f8c57",
+  "name" : "TestIndex()",
+  "fullName" : "Tests.TestIndex.TestIndex",
+  "historyId" : "5e330bf0605bc1a29d74963a19110429",
+  "time" : {
+    "start" : 1628369180666,
+    "stop" : 1628369190176,
+    "duration" : 9510
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1628369180703,
+      "stop" : 1628369187986,
+      "duration" : 7283
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1628369190093,
+      "stop" : 1628369190170,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-184"
+  }, {
+    "name" : "thread",
+    "value" : "2865@fv-az74-184.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestIndex"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestIndex"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestIndex"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestIndex"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 9,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "77656045eb0d76af",
+        "reportUrl" : "https://mahlmatyas.github.io/nng.com/10//#testresult/77656045eb0d76af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628344913653,
+          "stop" : 1628344918557,
+          "duration" : 4904
+        }
+      }, {
+        "uid" : "f882318c9fad20e3",
+        "reportUrl" : "https://mahlmatyas.github.io/nng.com/9//#testresult/f882318c9fad20e3",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element <li id=\"menu-item-63\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-63\">...</li> is not clickable at point (1020, 104). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645\"></div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az28-873', ip: '10.1.0.94', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.r1n6Du}, goog:chromeOptions: {debuggerAddress: localhost:41543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4118eda77b933016d6548c502be220dd",
+        "time" : {
+          "start" : 1628344392074,
+          "stop" : 1628344395802,
+          "duration" : 3728
+        }
+      }, {
+        "uid" : "ea8b10134df3dd56",
+        "reportUrl" : "https://mahlmatyas.github.io/nng.com/8//#testresult/ea8b10134df3dd56",
+        "status" : "broken",
+        "statusDetails" : "element click intercepted: Element <li id=\"menu-item-63\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-63\">...</li> is not clickable at point (1980, 104). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645\"></div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-184', ip: '10.1.0.122', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.DXHGPx}, goog:chromeOptions: {debuggerAddress: localhost:43351}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 024544893f48f24c8e9d8fd528d38ff8",
+        "time" : {
+          "start" : 1628344123761,
+          "stop" : 1628344128479,
+          "duration" : 4718
+        }
+      }, {
+        "uid" : "e8f27b2ceeed769a",
+        "reportUrl" : "https://mahlmatyas.github.io/nng.com/7//#testresult/e8f27b2ceeed769a",
+        "status" : "broken",
+        "statusDetails" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-771', ip: '10.1.0.247', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.lGb28y}, goog:chromeOptions: {debuggerAddress: localhost:46673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a9184800a359baa780deafa636f88ea1",
+        "time" : {
+          "start" : 1628343489673,
+          "stop" : 1628343503450,
+          "duration" : 13777
+        }
+      }, {
+        "uid" : "ba08126da39c38e4",
+        "reportUrl" : "https://mahlmatyas.github.io/nng.com/6//#testresult/ba08126da39c38e4",
+        "status" : "broken",
+        "statusDetails" : "element not interactable\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-184', ip: '10.1.0.127', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.XB5bbl}, goog:chromeOptions: {debuggerAddress: localhost:34821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4b882f8a0046dc4bc0537459025e5bce",
+        "time" : {
+          "start" : 1628343146152,
+          "stop" : 1628343159838,
+          "duration" : 13686
+        }
+      }, {
+        "uid" : "87e08002b405df97",
+        "reportUrl" : "https://mahlmatyas.github.io/nng.com/5//#testresult/87e08002b405df97",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-184', ip: '10.1.0.79', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55e2cce7da63 <unknown>\n#1 0x55e2ccbf2458 <unknown>\n#2 0x55e2ccc152e3 <unknown>\n#3 0x55e2ccc10e9f <unknown>\n#4 0x55e2ccc4ab72 <unknown>\n#5 0x55e2ccc44fd3 <unknown>\n#6 0x55e2ccc1b514 <unknown>\n#7 0x55e2ccc1c505 <unknown>\n#8 0x55e2ccea9e2e <unknown>\n#9 0x55e2ccebf886 <unknown>\n#10 0x55e2cceaad75 <unknown>\n#11 0x55e2ccec0d94 <unknown>\n#12 0x55e2ccea18eb <unknown>\n#13 0x55e2ccedbcd8 <unknown>\n#14 0x55e2ccedbe58 <unknown>\n#15 0x55e2ccef5dfd <unknown>\n#16 0x7fc8ddea5609 start_thread\n",
+        "time" : {
+          "start" : 1628342768412,
+          "stop" : 1628342768602,
+          "duration" : 190
+        }
+      }, {
+        "uid" : "7aaf5f42bab3df9",
+        "reportUrl" : "https://mahlmatyas.github.io/nng.com/4//#testresult/7aaf5f42bab3df9",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az77-771', ip: '10.1.0.197', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55a7b03b1a63 <unknown>\n#1 0x55a7b0126458 <unknown>\n#2 0x55a7b01492e3 <unknown>\n#3 0x55a7b0144e9f <unknown>\n#4 0x55a7b017eb72 <unknown>\n#5 0x55a7b0178fd3 <unknown>\n#6 0x55a7b014f514 <unknown>\n#7 0x55a7b0150505 <unknown>\n#8 0x55a7b03dde2e <unknown>\n#9 0x55a7b03f3886 <unknown>\n#10 0x55a7b03ded75 <unknown>\n#11 0x55a7b03f4d94 <unknown>\n#12 0x55a7b03d58eb <unknown>\n#13 0x55a7b040fcd8 <unknown>\n#14 0x55a7b040fe58 <unknown>\n#15 0x55a7b0429dfd <unknown>\n#16 0x7feadc792609 start_thread\n",
+        "time" : {
+          "start" : 1628340848171,
+          "stop" : 1628340848348,
+          "duration" : 177
+        }
+      }, {
+        "uid" : "1ec134202db8d377",
+        "reportUrl" : "https://mahlmatyas.github.io/nng.com/3//#testresult/1ec134202db8d377",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-740', ip: '10.1.0.34', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x555f2beb9a63 <unknown>\n#1 0x555f2bc2e458 <unknown>\n#2 0x555f2bc512e3 <unknown>\n#3 0x555f2bc4ce9f <unknown>\n#4 0x555f2bc86b72 <unknown>\n#5 0x555f2bc80fd3 <unknown>\n#6 0x555f2bc57514 <unknown>\n#7 0x555f2bc58505 <unknown>\n#8 0x555f2bee5e2e <unknown>\n#9 0x555f2befb886 <unknown>\n#10 0x555f2bee6d75 <unknown>\n#11 0x555f2befcd94 <unknown>\n#12 0x555f2bedd8eb <unknown>\n#13 0x555f2bf17cd8 <unknown>\n#14 0x555f2bf17e58 <unknown>\n#15 0x555f2bf31dfd <unknown>\n#16 0x7fa1c58ee609 start_thread\n",
+        "time" : {
+          "start" : 1628338031280,
+          "stop" : 1628338031506,
+          "duration" : 226
+        }
+      }, {
+        "uid" : "3880c20dfe34c014",
+        "reportUrl" : "https://mahlmatyas.github.io/nng.com/2//#testresult/3880c20dfe34c014",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/nng.com/nng.com/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1628336351330,
+          "stop" : 1628336351478,
+          "duration" : 148
+        }
+      }, {
+        "uid" : "7f6a49d939a984ef",
+        "reportUrl" : "https://mahlmatyas.github.io/nng.com/1//#testresult/7f6a49d939a984ef",
+        "status" : "broken",
+        "statusDetails" : "The driver executable does not exist: /home/runner/work/nng.com/nng.com/C:/webdriver/chromedriver.exe",
+        "time" : {
+          "start" : 1628336290391,
+          "stop" : 1628336290395,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "126503a98a5f8c57.json",
+  "parameterValues" : [ ]
+}
