@@ -12,7 +12,7 @@ public class TestContact_us extends TestEnvironment {
     private Contact_us contact_us;
 
     @Test
-    public void TestContact_us() {
+    public void Test_Contact_us() {
         index = new Index(driver);
         index.contactUrlClick();
 
@@ -29,8 +29,8 @@ public class TestContact_us extends TestEnvironment {
         System.out.println("elso: "+expectedName);
         System.out.println("masodik: "+expectedTextarea);
 
-        Assertions.assertTrue(expectedName.contains("ipsz"),"Error_1");
-        Assertions.assertTrue(expectedTextarea.contains("ipsz"),"Error_2");
+        Assertions.assertTrue(expectedName.contains("Gipsz"),"Error_1");
+        Assertions.assertTrue(expectedTextarea.contains("contact form below"),"Error_2");
         */
 
         Assertions.assertTrue(driver.getPageSource().contains("contact form below"));

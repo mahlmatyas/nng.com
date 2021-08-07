@@ -16,7 +16,6 @@ public class Contact_us {
     //methods
     public void fillContactForm(String fullname, String textarea){
         driver.findElement(Constans.CONTACT_US_FULLNAME).sendKeys(fullname);
-
         driver.findElement(Constans.CONTACT_US_TEXTAREA).sendKeys(textarea);
         //driver.findElement(Constans.CONTACT_US_CAPTCHA).isSelected();
     }
