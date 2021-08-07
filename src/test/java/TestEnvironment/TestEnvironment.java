@@ -21,15 +21,15 @@ public class TestEnvironment {
     public void SetUp(){
         WebDriverManager.chromedriver().setup(); //System.setProperty("webdriver.chrome.driver", "C:/webdriver/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
+
+        options.addArguments("--incognito");
+        //options.addArguments("--headless"); // github action-nál át kell állítanom
+
         driver = new ChromeDriver(options);
-
-        //options.addArguments("--incognito");
-        options.addArguments("--headless"); // github action-nál át kell állítanom
-
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.navigate().to(Constans.URL_BASE);
-        driver.manage().window().fullscreen();
+        driver.manage().window().maximize();
     }
 
     @AfterEach
