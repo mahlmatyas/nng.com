@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <li id=\"menu-item-63\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-63\">...</li> is not clickable at point (1980, 104). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645\"></div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-184', ip: '10.1.0.122', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.1rHsBB}, goog:chromeOptions: {debuggerAddress: localhost:40337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8d4e87f33d41f01cb5cacf31535ba84c",
+      "children" : [ {
+        "name" : "Test_Contact_us()",
+        "uid" : "669f46e9cf8598d7",
+        "parentUid" : "e44e323515c7b47367f28af2530590a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628344109036,
+          "stop" : 1628344123665,
+          "duration" : 14629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e44e323515c7b47367f28af2530590a2"
+    }, {
+      "name" : "element click intercepted: Element <li id=\"menu-item-63\" class=\"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-63\">...</li> is not clickable at point (1980, 104). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645\"></div>\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-184', ip: '10.1.0.122', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.DXHGPx}, goog:chromeOptions: {debuggerAddress: localhost:43351}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 024544893f48f24c8e9d8fd528d38ff8",
+      "children" : [ {
+        "name" : "TestIndex()",
+        "uid" : "ea8b10134df3dd56",
+        "parentUid" : "807ecc96404b20f0f8eea3df7abf73b2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628344123761,
+          "stop" : 1628344128479,
+          "duration" : 4718
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "807ecc96404b20f0f8eea3df7abf73b2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

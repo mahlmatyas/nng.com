@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 8,
+  "reportUrl" : "https://mahlmatyas.github.io/nng.com/8/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 2,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 2
+  }
+}, {
   "buildOrder" : 7,
   "reportUrl" : "https://mahlmatyas.github.io/nng.com/7/",
   "reportName" : "Allure Report with history",
