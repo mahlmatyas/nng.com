@@ -5,6 +5,7 @@ import Pages.Index;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -31,7 +32,7 @@ public class TestEnvironment {
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.navigate().to(Constans.URL_BASE);
-        driver.manage().window().maximize();
+        driver.manage().window().setSize(new Dimension(3840,2160));
     }
 
     @AfterEach
