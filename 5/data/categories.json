@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-184', ip: '10.1.0.79', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55f6eed48a63 <unknown>\n#1 0x55f6eeabd458 <unknown>\n#2 0x55f6eeae02e3 <unknown>\n#3 0x55f6eeadbe9f <unknown>\n#4 0x55f6eeb15b72 <unknown>\n#5 0x55f6eeb0ffd3 <unknown>\n#6 0x55f6eeae6514 <unknown>\n#7 0x55f6eeae7505 <unknown>\n#8 0x55f6eed74e2e <unknown>\n#9 0x55f6eed8a886 <unknown>\n#10 0x55f6eed75d75 <unknown>\n#11 0x55f6eed8bd94 <unknown>\n#12 0x55f6eed6c8eb <unknown>\n#13 0x55f6eeda6cd8 <unknown>\n#14 0x55f6eeda6e58 <unknown>\n#15 0x55f6eedc0dfd <unknown>\n#16 0x7fd2f67f1609 start_thread\n",
+      "children" : [ {
+        "name" : "Test_Contact_us()",
+        "uid" : "6d1523ebd4243358",
+        "parentUid" : "eeb3539fed72c23c7f9a03c0c69ca2d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628342762942,
+          "stop" : 1628342768301,
+          "duration" : 5359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eeb3539fed72c23c7f9a03c0c69ca2d7"
+    }, {
+      "name" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-184', ip: '10.1.0.79', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55e2cce7da63 <unknown>\n#1 0x55e2ccbf2458 <unknown>\n#2 0x55e2ccc152e3 <unknown>\n#3 0x55e2ccc10e9f <unknown>\n#4 0x55e2ccc4ab72 <unknown>\n#5 0x55e2ccc44fd3 <unknown>\n#6 0x55e2ccc1b514 <unknown>\n#7 0x55e2ccc1c505 <unknown>\n#8 0x55e2ccea9e2e <unknown>\n#9 0x55e2ccebf886 <unknown>\n#10 0x55e2cceaad75 <unknown>\n#11 0x55e2ccec0d94 <unknown>\n#12 0x55e2ccea18eb <unknown>\n#13 0x55e2ccedbcd8 <unknown>\n#14 0x55e2ccedbe58 <unknown>\n#15 0x55e2ccef5dfd <unknown>\n#16 0x7fc8ddea5609 start_thread\n",
+      "children" : [ {
+        "name" : "TestIndex()",
+        "uid" : "87e08002b405df97",
+        "parentUid" : "5a1bd296239e1c43d143abd59d627f17",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628342768412,
+          "stop" : 1628342768602,
+          "duration" : 190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5a1bd296239e1c43d143abd59d627f17"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
