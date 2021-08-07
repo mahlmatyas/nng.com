@@ -22,8 +22,10 @@ public class TestEnvironment {
         WebDriverManager.chromedriver().setup(); //System.setProperty("webdriver.chrome.driver", "C:/webdriver/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
 
-        options.addArguments("--incognito");
-        //options.addArguments("--headless"); // github action-nál át kell állítanom
+        //options.addArguments("--incognito");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--headless"); // github action-nál át kell állítanom
 
         driver = new ChromeDriver(options);
 
