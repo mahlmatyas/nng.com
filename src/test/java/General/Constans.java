@@ -9,6 +9,7 @@ public class Constans {
     //index page
     public static final By CONTACT_MENU = By.xpath("//*[@id=\"menu-item-63\"]");
     public static final By CONTACT_US = By.xpath("//*[@id=\"menu-item-65\"]/a");
+    public static final By INDEX_COOKIE = By.id("onetrust-accept-btn-handler");
 
     //contact page
     public static final String CONTACT_US_LANDING_URL = "https://www.nng.com/contact-us/";

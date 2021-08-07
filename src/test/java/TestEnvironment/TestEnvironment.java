@@ -30,7 +30,7 @@ public class TestEnvironment {
 
         driver = new ChromeDriver(options);
 
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.navigate().to(Constans.URL_BASE);
         driver.manage().window().setSize(new Dimension(1920,1080));
     }

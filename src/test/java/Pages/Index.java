@@ -17,7 +17,13 @@ public class Index {
     }
 
     //methods
+
     public void contactUrlClick() {
+        try{
+            driver.findElement(Constans.INDEX_COOKIE).click();
+        }catch (Exception ignored){
+
+        }
         driver.findElement(Constans.CONTACT_MENU).click();
         driver.findElement(Constans.CONTACT_US).click();
     }
