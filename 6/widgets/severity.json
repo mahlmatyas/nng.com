@@ -1,0 +1,21 @@
+[ {
+  "uid" : "5e3d6fdde30d56e4",
+  "name" : "Test_Contact_us()",
+  "time" : {
+    "start" : 1628343125770,
+    "stop" : 1628343146063,
+    "duration" : 20293
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ba08126da39c38e4",
+  "name" : "TestIndex()",
+  "time" : {
+    "start" : 1628343146152,
+    "stop" : 1628343159838,
+    "duration" : 13686
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
