@@ -32,7 +32,7 @@ public class TestEnvironment {
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.navigate().to(Constans.URL_BASE);
-        driver.manage().window().setSize(new Dimension(3840,2160));
+        driver.manage().window().setSize(new Dimension(1920,1080));
     }
 
     @AfterEach
